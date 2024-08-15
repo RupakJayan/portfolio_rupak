@@ -48,7 +48,7 @@ const Hero = () => {
         <div>
           <motion.h1
             className={`${styles.heroHeadText} text-white thin-text-head`}
-            style={{ fontSize: "clamp(2rem, 5vw, 6rem)" }} // Fluid typography for heading
+            style={{ fontSize: 'clamp(2rem, 5vw, 6rem)' }} // Fluid typography for heading
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
@@ -57,7 +57,7 @@ const Hero = () => {
           </motion.h1>
           <motion.span
             className={`${styles.heroSubText} mt-2 text-white-100 thin-text`}
-            style={{ fontSize: "clamp(1rem, 3vw, 3rem)" }} // Fluid typography for subtext
+            style={{ fontSize: 'clamp(1rem, 3vw, 3rem)' }} // Fluid typography for subtext
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
